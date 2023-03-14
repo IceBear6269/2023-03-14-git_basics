@@ -8,4 +8,4 @@
 - 'git add <FILE>': puts <FILE> into your staging area
 - 'git commit': open up editor for you to write a message and create 
 commit
-
+	-'git commit -m "MESSAGE"': writes commit message without editor
