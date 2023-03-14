@@ -13,3 +13,7 @@ commit
 
 -'git log': shows us the log / commit history
 	-'git log --oneline': shows us the 1 line per commit version
+
+
+-'git diff': shows you new changes to a file that has not been commited
+	-'git diff --staged": shows you changes in the staging area
