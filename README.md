@@ -15,6 +15,7 @@ commit
 	-'git log --oneline': shows us the 1 line per commit version
 
 
+-'HEAD': tells you where you are
 -'git diff': shows you new changes to a file that has not been commited
 	-'git diff --staged": shows you changes in the staging area
 	-'git diff <HASH=˜> <FILE>': shows you difference between current 
@@ -22,3 +23,9 @@ and commit
 		-'HEAD˜1': to use relative to head
 		-'<HASH>': to use the actual hash location
 
+
+-'git checkout <HASH> <FILE>': restore <FILE> from version in <HASH>
+-'git checkout <HASH>': brings HEAD to <HASH> so you can run things
+	-'git checkout main': bring you back to main
+	-'git switch main': also brings you back to main
+-'git log --oneline --all': show you all the history not just from HEAD
