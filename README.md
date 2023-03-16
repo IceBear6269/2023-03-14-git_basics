@@ -39,3 +39,4 @@ and commit
 
 -'git remote add <NAME> <URL>': 'git remote add origin <SSH URL>': create remote >
 -'git push origin main': sends code to remote
+-'git pull origin main': brings code down from the remote to your local computer
