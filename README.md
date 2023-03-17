@@ -30,8 +30,12 @@ and commit
 	-'git switch main': also brings you back to main
 -'git log --oneline --all': show you all the history not just from HEAD
 
+## Ignoring things
+
 -'.gitkeep': file used as a convention to "keep" folders that are empty 
 -'.gitignore': file used by git to match files to ignore
+
+## Remotes
 
 -'ssh-keygen': create an ssh key
 	- copy your '˜/.ssh/id_rsa.pub' into your github account
@@ -40,3 +44,10 @@ and commit
 -'git remote add <NAME> <URL>': 'git remote add origin <SSH URL>': create remote >
 -'git push origin main': sends code to remote
 -'git pull origin main': brings code down from the remote to your local computer
+
+
+## Merge conglicts 
+
+- 'git push origin main': this might error/reject. Read the message 
+- 'git pull origin main': sync work first
+- Fix conflicts '<< === >>': fix the file the way you want 
